@@ -1,0 +1,39 @@
+ul#turulmemeshares{
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0;
+	margin: 0 0.5em;
+}
+ul#turulmemeshares li{
+	clear: both;
+	padding: 0.5em 0 1em 0;
+	border-top: 1px solid #ccc;
+}
+ul#turulmemeshares img{	
+	float: left;
+	margin-bottom: 1em;
+}
+ul#turulmemeshares .tmsname{
+	padding: 0.5em 0.7em;
+	float:left;
+}
+ul#turulmemeshares .tmsuser{
+	width: 15em;
+}
+ul#turulmemeshares .tmstext{
+	background-color: #E1ECFE;
+	color: #666;
+	padding: 0 0.5em;
+}
+ul#turulmemeshares a{
+	display: block;
+}
+
+li.tmsmoderated{
+	background-color: #feb;
+}
+
+a.tmsmoderal{
+	float: right;
+	padding-right: 2em;
+}
